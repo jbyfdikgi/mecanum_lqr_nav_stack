@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'lqr_node = lqr_cart_control.lqr_node:main'
+            'lqr_node = lqr_cart_control.lqr_node:main',
+            'cart_sim = lqr_cart_control.virtual_cart_sim:main',
         ],
     },
 )

@@ -10,7 +10,7 @@ def compute_lqr_gain(A,B,Q,R):
 
     """
     inverse求解逆矩阵 
-    增益矩阵 $K$ 的计算公式是 K = R^{-1} B^T P。
+    增益矩阵 K的计算公式是 K = R^{-1} B^T P。
     在 Python (NumPy) 中，矩阵乘法使用 @ 符号，转置使用 .T
     
     """
